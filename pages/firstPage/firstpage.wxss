@@ -1,0 +1,69 @@
+/* pages/firstPage/firstpage.wxss */
+.first{
+  color:red;
+  font-size: 48px;
+}
+.item{
+  /* float:left; */
+  background-color:pink;
+  border: 1px solid red;
+  width: 100px; 
+
+}
+
+.list{
+  height: 300px;
+  background-color: greenyellow;
+  display: flex;
+  /*容器属性：  */
+  /*指定元素的排列方式
+  row(默认), row-reverse , column,column-reverse
+    */
+  flex-direction: row;
+  /* 换行  nowrap: 不换行  wrap:换行   wrap-reverse */
+     flex-wrap:wrap;   
+  /* justify-content:主轴对齐方式
+  flex-start|flex-end|center|space-around|space-between
+   */
+  justify-content: space-between;
+
+  /*align-items :交叉轴的对齐方式 */
+  /* align-items: flex-start | flex-end | center | baseline | stretch */
+
+   align-items: stretch; 
+
+/*align-content:多行垂直对齐方式  */
+ align-content: space-between;
+
+
+}
+.item{
+   /*项目属性(item内部的属性)
+      order :排序作用，默认0 ，越小越在值
+      flex-grow: 剩余空间放大的比例分配 ，默认为0,即使有剩余空间也不放大
+       //剩余的空间/份数  (份数：flex-grow 值相加)
+
+      flex-shrink:当空间不够的时候，缩小 的比例，默认值为1，等比例缩小
+      //   (500 -275)/5
+      //注： flex-wrap 设置为换行时，flex-shrink不起作用，因为空间不够就会换行显示
+
+      
+   */
+  height: 50px;
+  /* flex-basis:50%; */
+    /* flex-grow: 1; */
+}
+.item:first-child{
+  /* align-self: center; */
+  /* flex-shrink: 0; */
+  font-size: 30px;
+   height: 70px; 
+}
+.item:nth-child(2){
+  font-size: 30px;
+   height: 30px; 
+}
+.item:nth-child(3){
+  font-size: 16px;
+   height: 100px; 
+}

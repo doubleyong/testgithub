@@ -1,0 +1,11 @@
+<template name="news">
+   <view>
+     <text>这是news 模板里的内容</text>
+   </view>
+</template>
+
+<template name="links">
+   <view>
+     <text>这是links模板里的内容</text>
+   </view>
+</template>

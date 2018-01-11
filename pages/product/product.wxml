@@ -1,0 +1,24 @@
+<view class='pcontainer'>
+  <view class="header">
+    <text>精品推荐</text>
+    <text class="allproduct">全部精品</text>
+  </view>
+  <view class="content">
+    <view class='content-item'>
+      <image src="../../images/img1.png" mode="aspectFit"></image>
+      <view class="content-item-text">这是说明的文字</view>
+    </view>
+    <view class='content-item'>
+      <image src="../../images/img1.png" mode="aspectFit"></image>
+      <view class="content-item-text">这是说明的文字</view>
+    </view>
+    <view class='content-item'>
+      <image src="../../images/img1.png" mode="aspectFit"></image>
+      <view class="content-item-text">这是说明的文字</view>
+    </view>
+    <view class='content-item'>
+      <image src="../../images/img1.png" mode="aspectFit"></image>
+      <view class="content-item-text">这是说明的文字</view>
+    </view>
+  </view>
+</view>

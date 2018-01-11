@@ -1,0 +1,12 @@
+<!--pages/day02/event/event.wxml-->
+<view id="outer" bindtap="handleTap1">
+  yeye view
+  <view id="middle" catchtap="handleTap2">
+    baba view
+    <view id="inner" bindtap="handleTap3"  data-alpha-beta="1" data-alphaBeta="2" >
+      child view
+    </view>
+  </view>
+</view>
+
+<button type="warn">hello </button>

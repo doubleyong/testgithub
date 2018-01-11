@@ -1,0 +1,56 @@
+
+<import src="../templates/header"/>
+
+  <scroll-view class="scroll-view_H" scroll-y style="width: 100%">
+    <view id="green" class="scroll-view-item_H bc_green"></view>
+   
+   </scroll-view>  
+ <!-- <template is="header" data="{{name:'doubleyong'}}"></template> -->
+<!-- <text>{{title}}</text>
+<text>{{2+2}}</text>
+<text>
+   {{ (sex==1)?"男":"女"}}
+</text> -->
+
+<!-- wx:if wx:elif wx:else 顺序不错  -->
+<!-- <text wx:if="{{score>=80}}">A</text>
+
+<text wx:elif="{{score>=60}}">B</text>
+
+<text wx:else>C</text> -->
+
+<!-- wx:if  hidden 两个的区别
+    
+    wx:if 不满足条件时，
+
+  -->
+<!-- <text hidden="{{!isShow}}">显示/隐藏的控制</text>
+
+<button bindtap='changeSate'>切换状态</button> -->
+
+<!-- <view wx:for="{{list}}"> -->
+<!-- item: 项 index：下标 
+key: 提示警告
+
+ -->
+<!-- <text>{{index}}</text>
+    <text>{{item.name}}</text>
+    <text>{{item.age}}</text>
+</view>
+<block wx:if="{{}}">
+   <text>hello ,block</text>
+    <text>hello ,block</text>
+     <text>hello ,block</text>
+      <text>hello ,block</text>
+</block> -->
+<!--  
+<view wx:for="{{switchArr}}" wx:key="id">
+  <text>{{item.id}}</text>  
+  <switch />
+</view>  -->
+
+
+<!-- <button bindtap="addSwitch">添加开关</button> -->
+
+<import src="../templates/footer"/>
+   <template is="footer"></template>

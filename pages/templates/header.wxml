@@ -1,0 +1,17 @@
+<template name="header">
+<view>
+   <text>我是头部,你好，{{name}}</text>
+</view>
+</template>
+
+
+<text>我是头部以外的文字</text>
+
+
+<!--include 引用这个文件的内部，除template外 ，放到指的位置  -->
+
+<!--import 引用对于模板的使用，  -->
+
+<import src="common" />
+<!-- <template is="common">
+</template> -->

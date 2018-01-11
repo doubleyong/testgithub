@@ -1,0 +1,9 @@
+
+<template name="footer">
+<view>
+   <text>我是底部</text>
+</view>
+
+</template>
+
+<view><text>底部模板外的文字</text></view>

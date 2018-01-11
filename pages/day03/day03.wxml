@@ -1,0 +1,10 @@
+<!--pages/day03/day03.wxml-->
+<text>{{subTitle}}</text>
+
+
+
+<text>{{user.nickName}}</text>
+
+<button bindtap='callphone'>打电话</button>
+
+<button bindtap='updateImage'>上传头像</button>

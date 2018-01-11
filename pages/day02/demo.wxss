@@ -1,0 +1,10 @@
+/* pages/day02/demo.wxss */
+#green
+{
+  height: 1000px;
+  background-color: green;
+}
+
+.scroll-view_H{
+  height: 500px;
+}

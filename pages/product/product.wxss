@@ -1,0 +1,42 @@
+/* pages/product/product.wxss */
+.pcontainer{
+  font-size:16px;
+}
+
+.header{
+  border-left:3px solid green;
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.allproduct{
+  color:green;
+}
+
+.content{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.content-item{
+  flex-basis:45%;
+  position: relative;
+}
+
+.content-item image{
+   height: 220rpx; 
+  width: 100%;
+}
+
+.content-item-text{
+  height: 50rpx;
+  background-color: rgba(67,67,67,.5);
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom:0;
+}
+
+/*px , em , % , rem rpx  */
